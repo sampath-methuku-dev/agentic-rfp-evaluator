@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# local database is recreated by db/seed.py
+data/*.db
+# never commit keys
+.env
+.env.*
+secrets.toml
+.streamlit/secrets.toml
+.DS_Store
